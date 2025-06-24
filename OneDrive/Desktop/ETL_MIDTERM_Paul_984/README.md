@@ -29,17 +29,17 @@ Transformed outputs saved to:
   - `full_data.parquet`
   - `incremental_data.parquet`
 
-### 📊 Bonus Visualization
-Created a pie chart showing order distribution by region:
-
-![Order Distribution by Region](transformed/orders_by_region_piechart.png)
-
 ## 🧰 Tools Used
 - Python
 - pandas
 - matplotlib
 - fastparquet
 - Jupyter Notebook
+
+### 📊 Visualization
+Created a pie chart showing order distribution by region:
+
+![Order Distribution by Region](transformed/orders_by_region_piechart.png)
 
 ## ▶️ How to Run the Project
 1. Clone this repository:
