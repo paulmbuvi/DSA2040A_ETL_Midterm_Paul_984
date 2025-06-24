@@ -1,0 +1,44 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+env/
+venv/
+ENV/
+.venv/
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# OS junk
+ehthumbs.db
+Icon?
+$RECYCLE.BIN/
+
+# Git ignore backup files
+*.bak
+*.old
+
+# Parquet and intermediate data files (optional)
+*.parquet
+
+# Optional: exclude data files if not needed in repo
+# data/
+# transformed/
+# loaded/
