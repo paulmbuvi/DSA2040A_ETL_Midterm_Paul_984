@@ -35,10 +35,11 @@ $RECYCLE.BIN/
 *.bak
 *.old
 
-# Parquet and intermediate data files (optional)
-*.parquet
+# Data output files
+*.parquet           # Parquet files
+*.db                # SQLite database files
 
-# Optional: exclude data files if not needed in repo
-# data/
-# transformed/
-# loaded/
+# Loaded data folder
+loaded/
+
+
